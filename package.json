@@ -1,0 +1,25 @@
+{
+  "name": "presentation",
+  "type": "module",
+  "packageManager": "pnpm@10.21.0",
+  "description": "Slides of our talks",
+  "private": true,
+  "author": {
+    "name": "SalentoDev Team",
+    "url": "https://github.com/salento-dev"
+  },
+  "scripts": {
+    "cleanup:dist": "rimraf --glob dist",
+    "packages:build": "pnpm cleanup:dist && pnpm -r --filter=./packages/* run build",
+    "packages:build-base": "pnpm cleanup:dist && pnpm -r --filter=./packages/* run build-base"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.8.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "@types/seedrandom": "^3.0.8",
+    "rimraf": "^6.0.1",
+    "seedrandom": "^3.0.5",
+    "vue": "^3.5.24"
+  }
+}
