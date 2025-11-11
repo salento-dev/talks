@@ -1,0 +1,9 @@
+{
+  "name": "index",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "npm run build-base",
+    "build-base": "mkdir -p ../../dist && cp -r . ../../dist && rm -rf ../../dist/node_modules ../../dist/package.json"
+  }
+}
