@@ -3,6 +3,7 @@
 theme: default
 colorSchema: dark
 transition: fade-out
+favicon: /favicon.svg
 
 # some information about your slides (markdown enabled)
 title: Salento Dev - Talk \#0
@@ -19,6 +20,8 @@ drawings:
   persist: false
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
+
+routerMode: hash
 
 # Page options
 # apply UnoCSS classes to the current slide
