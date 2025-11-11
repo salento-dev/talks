@@ -1,11 +1,30 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Salento Dev - Talks
 
-To start the slide show:
+> Raccolta dei talk presentati dalla community [Salento Dev](https://salento.dev)
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
+## Chi siamo
 
-Edit the [slides.md](./slides.md) to see the changes.
+**Salento Dev** è una community di sviluppatori del Salento che alterna momenti strutturati di formazione, spazi aperti per confrontarsi e occasioni informali per fare rete.
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+### Cosa facciamo
+
+- 🎤 **Meetup e workshop**: incontri tecnici periodici, live coding, talk, panel e Q&A
+- 🍹 **AperiDev**: appuntamenti informali per fare networking
+- 🧭 **Mentorship**: orientamento per nuovi sviluppatori
+- 🗺️ **Rotazione territoriale**: eventi distribuiti in tutto il Salento
+
+---
+
+## Talk
+
+### 2025/11/13 - Presentazione di Salento Dev
+
+[![Presentazione Salento Dev](./packages/talk0/public/cover.png)](https://salento-dev.github.io/talks/talk0/)
+
+Il primo meetup della community: chi siamo, cosa facciamo e perché nasciamo.
+
+---
+
+## Partecipa
+
+Vuoi unirti alla community? Visita [salento.dev](https://salento.dev) e seguici sui nostri canali social per rimanere aggiornato sui prossimi eventi e iniziative.
