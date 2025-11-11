@@ -19,7 +19,7 @@
 
 ### 2025/11/13 - Presentazione di Salento Dev
 
-[![Presentazione Salento Dev](./packages/talk0/public/cover.png)](https://salento-dev.github.io/talks/talk0/)
+[![Presentazione Salento Dev](./packages/talk0/public/cover.png)](https://talks.salento.dev/talk0/)
 
 Il primo meetup della community: chi siamo, cosa facciamo e perché nasciamo.
 
