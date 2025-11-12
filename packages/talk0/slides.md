@@ -29,7 +29,7 @@ glowSeed: 228
 layout: center
 ---
 
-![Logo salento dev](/logo.svg){.w-[70%] .h-auto .mx-a}
+![Logo salento dev](/logo.svg){.w-[80%] .h-auto .mx-a}
 
 ---
 layout: center
@@ -134,10 +134,26 @@ class: text-center
     NO a comportamenti illegali
   </div>
   <div class="p-6 border-l-4 border-red-500 bg-red-500/5">
-    No a contenuti non pertinenti
+    NO a contenuti non pertinenti
   </div>
 </div>
 
 <div class="mt-12 p-6 bg-green-500/5">
   Ricordati che siamo tutti qui per imparare e crescere insieme.
 </div>
+
+---
+layout: center
+class: text-center
+---
+# Rimaniamo in Contatto
+
+Scansiona il QR code per accedere a tutti i nostri canali
+
+![QrCode](/qrcode.svg){.w-[200px] .h-auto .mx-a}
+
+<style>
+a {
+  color: #20D0ED;
+}
+</style>
