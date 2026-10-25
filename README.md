@@ -23,6 +23,12 @@
 
 Il primo meetup della community: chi siamo, cosa facciamo e perché nasciamo.
 
+### 2026/10/29 - Salento.dev in un colpo d'occhio
+
+[![Salento.dev in un colpo d'occhio](./packages/talk1/public/cover.png)](https://talks.salento.dev/talk1/)
+
+Panoramica introduttiva: principi, eventi, sito, WhatsApp Community, social, media kit, repository e partner.
+
 ---
 
 ## Partecipa
