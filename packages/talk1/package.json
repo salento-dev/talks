@@ -1,0 +1,16 @@
+{
+  "name": "talk1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "build-base": "slidev build --out ../../dist/talk1 --base /talk1/",
+    "dev": "slidev --open --remote",
+    "export": "slidev export --with-clicks --per-slide --wait-until none"
+  },
+  "dependencies": {
+    "@fontsource-variable/albert-sans": "^5.2.0",
+    "@fontsource-variable/outfit": "^5.2.0",
+    "@fontsource-variable/roboto-mono": "^5.2.0"
+  }
+}

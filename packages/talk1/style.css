@@ -1,0 +1,334 @@
+@import '@fontsource-variable/outfit';
+@import '@fontsource-variable/albert-sans';
+@import '@fontsource-variable/roboto-mono';
+
+/* Night Console: cyan come unica luce accesa, grafite e nebbia per il resto */
+/* Slidev usa #121212 come fondo del contenitore in tema scuro: deve essere nero come il sito */
+html.dark,
+html.dark body,
+#page-root,
+#slide-content {
+  background-color: #000 !important;
+}
+
+:root {
+  --sd-cyan: #20d0ed;
+  --sd-dark: #1d1e1c;
+  --sd-panel: oklch(21.8% 0.008 223.9);
+  --sd-bracket: oklch(45% 0.017 213.2);
+  --sd-muted: oklch(72.3% 0.014 214.4);
+  --sd-body: oklch(87.2% 0.007 219.6);
+  --sd-bright: oklch(98.7% 0.002 197.1);
+}
+
+.slidev-layout {
+  font-family: 'Albert Sans Variable', Verdana, sans-serif;
+  color: var(--sd-body);
+  background-color: #000;
+  /* Stesso pattern del sito (resources/images/dots-pattern-15.png, 9rem su 1440px):
+     scalato alla tela delle slide (980px) per avere la stessa densità */
+  background-image: url('/patterns/dots-pattern-15.png');
+  background-repeat: repeat;
+  background-size: 98px;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-family: 'Outfit Variable', 'Albert Sans Variable', sans-serif;
+  color: var(--sd-bright);
+  letter-spacing: -0.025em;
+}
+
+.slidev-layout h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.05;
+  margin-bottom: 0.75rem;
+}
+
+.slidev-layout h1 + p {
+  opacity: 1;
+  color: var(--sd-muted);
+}
+
+.slidev-layout code,
+.mono {
+  font-family: 'Roboto Mono Variable', ui-monospace, monospace;
+}
+
+.slidev-layout a {
+  color: var(--sd-cyan);
+  border-bottom: none;
+}
+
+.cyan {
+  color: var(--sd-cyan);
+}
+
+.muted {
+  color: var(--sd-muted);
+}
+
+/* Etichetta "di sistema": mono, maiuscola, spaziata */
+.eyebrow {
+  font-family: 'Roboto Mono Variable', ui-monospace, monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sd-cyan);
+  margin-bottom: 0.75rem;
+}
+
+/* Pannello con bordo 1px e staffe d'angolo (la firma del brand) */
+.panel {
+  position: relative;
+  padding: 1rem 1.1rem;
+  background: color-mix(in oklch, var(--sd-panel) 85%, transparent);
+  border: 1px solid oklch(27.5% 0.011 216.9);
+  border-radius: 0.125rem;
+}
+
+.panel::before,
+.panel::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-color: var(--sd-bracket);
+  border-style: solid;
+}
+
+.panel::before {
+  top: -1px;
+  left: -1px;
+  border-width: 1px 0 0 1px;
+}
+
+.panel::after {
+  bottom: -1px;
+  right: -1px;
+  border-width: 0 1px 1px 0;
+}
+
+.panel.on::before,
+.panel.on::after {
+  border-color: var(--sd-cyan);
+}
+
+.panel h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+}
+
+.panel p {
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--sd-muted);
+}
+
+.stat {
+  font-family: 'Outfit Variable', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--sd-bright);
+}
+
+.pill {
+  white-space: nowrap;
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid oklch(37.8% 0.015 216);
+  border-radius: 9999px;
+  font-family: 'Roboto Mono Variable', ui-monospace, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  color: var(--sd-body);
+}
+
+.pill.on {
+  border-color: var(--sd-cyan);
+  color: var(--sd-cyan);
+}
+
+/* Grafici: barre sottili, estremità arrotondate 4px, gap 2px tra segmenti */
+.chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  border-bottom: 1px solid oklch(37.8% 0.015 216);
+}
+
+.chart .col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: 2px;
+  position: relative;
+}
+
+.chart .seg {
+  border-radius: 1px;
+}
+
+.chart .col > .seg:nth-last-of-type(1) {
+  border-radius: 1px;
+}
+
+.chart .col .tot + .seg {
+  border-radius: 4px 4px 1px 1px;
+}
+
+.chart .tot {
+  font-family: 'Roboto Mono Variable', ui-monospace, monospace;
+  font-size: 0.65rem;
+  color: var(--sd-body);
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.chart .mo {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: 'Roboto Mono Variable', ui-monospace, monospace;
+  font-size: 0.6rem;
+  line-height: 1.2;
+  color: var(--sd-muted);
+}
+
+.chart .mo span {
+  color: oklch(55% 0.015 214);
+}
+
+.s1 { background: #6f7c81; }
+.s2 { background: var(--sd-cyan); }
+.s3 { background: #b8f3fb; }
+
+.key {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  color: var(--sd-body);
+}
+
+.key i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+/* Barre orizzontali */
+.hbar {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr 5.5rem;
+  white-space: nowrap;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+}
+
+.hbar .bar {
+  height: 14px;
+  border-radius: 0 4px 4px 0;
+  background: #6f7c81;
+}
+
+.hbar .bar.on {
+  background: var(--sd-cyan);
+}
+
+.hbar .val {
+  font-family: 'Roboto Mono Variable', ui-monospace, monospace;
+  font-size: 0.8rem;
+  color: var(--sd-body);
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: oklch(37.8% 0.015 216);
+}
+
+.timeline .dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 9999px;
+  background: #000;
+  border: 1px solid oklch(45% 0.017 213.2);
+  position: relative;
+}
+
+.timeline .dot.on {
+  background: var(--sd-cyan);
+  border-color: var(--sd-cyan);
+}
+
+.shot {
+  border: 1px solid oklch(27.5% 0.011 216.9);
+  border-radius: 0.125rem;
+  width: 100%;
+}
+
+/* Loghi partner: riquadro pieno, così ogni logo resta sul suo fondo */
+.partner-logo {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 0.375rem;
+  border: 1px solid oklch(27.5% 0.011 216.9);
+}
+
+.partner-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Outfit Variable', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.1;
+  color: var(--sd-bright);
+  background: var(--sd-panel);
+}
+
+.partner-name {
+  margin-top: 0.5rem;
+  font-size: 0.65rem;
+  line-height: 1.25;
+  color: var(--sd-muted);
+}
+
+/* Transizione "console": dissolvenza passando dal nero.
+   La slide vecchia sparisce, poi compare la nuova: i testi non si sovrappongono */
+.console-leave-active {
+  transition: opacity 0.18s ease-in;
+}
+
+.console-enter-active {
+  transition: opacity 0.28s ease-out 0.18s;
+}
+
+.console-enter-from,
+.console-leave-to {
+  opacity: 0;
+}
