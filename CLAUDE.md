@@ -1,14 +1,6 @@
 # CLAUDE.md
 
-Slide dei talk di Salento Dev, fatte con [Slidev](https://sli.dev). Monorepo pnpm: ogni talk è un pacchetto in `packages/` (`talk0`, `talk1`, …), `packages/index` è la pagina di atterraggio, `packages/addon-salento-dev` è lo stile condiviso. Per la descrizione della community e l'elenco dei talk vedi il [README](README.md).
-
-## Comandi
-
-- `pnpm install` dalla radice
-- `pnpm --filter talk1 dev`: anteprima di un talk
-- `pnpm packages:build-base`: build di tutti i pacchetti in `dist/` (la stessa usata per il deploy)
-
-Ogni push su `main` pubblica il sito con GitHub Pages ([.github/workflows/deploy.yaml](.github/workflows/deploy.yaml)).
+Slide dei talk di Salento.dev, fatte con [Slidev](https://sli.dev). Monorepo pnpm: ogni talk è un pacchetto in `packages/` (`talk0`, `talk1`, …), `packages/index` è la pagina di atterraggio, `packages/addon-salento-dev` è lo stile condiviso. Per la community e l'elenco dei talk vedi il [README](README.md); per prerequisiti, comandi e flusso delle PR vedi [CONTRIBUTING](CONTRIBUTING.md).
 
 ## Regole del codice
 
