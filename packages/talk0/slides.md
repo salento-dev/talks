@@ -76,14 +76,11 @@ Creare una rete di professionisti tech, condividere conoscenza e opportunità, f
   <div class="panel !py-3"><h3>Indipendenza</h3><p>Sponsor sì, ingerenza no</p></div>
 </div>
 
-<p class="mono text-sm muted mt-6">salento.dev/manifesto</p>
-
 <!--
 Qualità e rigore: diffondiamo le best practice, esempi riproducibili, test, documentazione essenziale, feedback onesto.
 Networking, quello vero: meetup, workshop e chiacchiere davanti a un drink.
 Impatto territoriale: un network che fa crescere casa.
 Indipendenza: donazioni e sponsor sì, ma contenuti e scelte restano nostri.
-Il manifesto completo è sul sito.
 -->
 
 ---
