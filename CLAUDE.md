@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Slide dei talk di Salento Dev, fatte con [Slidev](https://sli.dev). Monorepo pnpm: ogni talk è un pacchetto in `packages/` (`talk0`, `talk1`, …), `packages/index` è la pagina di atterraggio. Per la descrizione della community e l'elenco dei talk vedi il [README](README.md).
+Slide dei talk di Salento Dev, fatte con [Slidev](https://sli.dev). Monorepo pnpm: ogni talk è un pacchetto in `packages/` (`talk0`, `talk1`, …), `packages/index` è la pagina di atterraggio, `packages/addon-salento-dev` è lo stile condiviso. Per la descrizione della community e l'elenco dei talk vedi il [README](README.md).
 
 ## Comandi
 
@@ -13,7 +13,7 @@ Ogni push su `main` pubblica il sito con GitHub Pages ([.github/workflows/deploy
 ## Regole del codice
 
 - Formattazione da [.editorconfig](.editorconfig): 2 spazi, LF, newline finale.
-- Un nuovo talk è un nuovo pacchetto `packages/talkN` con gli script `build-base` (output in `../../dist/talkN`, base `/talkN/`), più la voce nel README e nella pagina indice.
+- Per creare, modificare o convertire slide usa la skill [talk-slide](.claude/skills/talk-slide/SKILL.md). Lo stile e i pattern sono nel [catalogo dell'addon](packages/addon-salento-dev/README.md): un pattern nuovo va nell'addon, non nel singolo talk.
 - Contenuti in italiano.
 
 ## Git
