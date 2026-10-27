@@ -5,9 +5,10 @@
   "scripts": {
     "build": "slidev build",
     "build-base": "slidev build --out ../../dist/talk0 --base /talk0/",
-    "dev": "slidev  --open --remote",
+    "dev": "slidev --open --remote",
     "export": "slidev export --with-clicks --per-slide --wait-until none"
   },
-  "devDependencies": {
+  "dependencies": {
+    "slidev-addon-salento-dev": "workspace:*"
   }
 }

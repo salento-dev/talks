@@ -1,10 +1,10 @@
-# Salento Dev - Talks
+# Salento.dev - Talks
 
-> Raccolta dei talk presentati dalla community [Salento Dev](https://salento.dev)
+> Raccolta dei talk presentati dalla community [Salento.dev](https://salento.dev)
 
 ## Chi siamo
 
-**Salento Dev** è una community di sviluppatori del Salento che alterna momenti strutturati di formazione, spazi aperti per confrontarsi e occasioni informali per fare rete.
+**Salento.dev** è una community di sviluppatori del Salento che alterna momenti strutturati di formazione, spazi aperti per confrontarsi e occasioni informali per fare rete.
 
 ### Cosa facciamo
 
@@ -17,17 +17,17 @@
 
 ## Talk
 
-### 2025/11/13 - Presentazione di Salento Dev
+### 2025/11/13 - Presentazione di Salento.dev
 
-[![Presentazione Salento Dev](./packages/talk0/public/cover.png)](https://talks.salento.dev/talk0/)
+[![Presentazione Salento.dev](./packages/talk0/public/cover.png)](https://talks.salento.dev/talk0/)
 
 Il primo meetup della community: chi siamo, cosa facciamo e perché nasciamo.
 
-### 2026/10/29 - Salento.dev in un colpo d'occhio
+### 2026/10/29 - Salento.dev, un anno dopo
 
-[![Salento.dev in un colpo d'occhio](./packages/talk1/public/cover.png)](https://talks.salento.dev/talk1/)
+[![Salento.dev, un anno dopo](./packages/talk1/public/cover.png)](https://talks.salento.dev/talk1/)
 
-Panoramica introduttiva: principi, eventi, sito, WhatsApp Community, social, media kit, repository e partner.
+Lightning Night di Taurisano: un anno di eventi, WhatsApp Community, trasferte, nuovo sito, brand identity e progetti open source.
 
 ---
 

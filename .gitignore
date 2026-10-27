@@ -5,4 +5,4 @@ dist
 .vite-inspect
 .remote-assets
 components.d.ts
-packages/**/package-lock.json
+package-lock.json

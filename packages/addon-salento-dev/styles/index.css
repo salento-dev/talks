@@ -27,7 +27,7 @@ html.dark body,
   background-color: #000;
   /* Stesso pattern del sito (resources/images/dots-pattern-15.png, 9rem su 1440px):
      scalato alla tela delle slide (980px) per avere la stessa densità */
-  background-image: url('/patterns/dots-pattern-15.png');
+  background-image: url('./dots-pattern-15.png');
   background-repeat: repeat;
   background-size: 98px;
 }
@@ -120,6 +120,11 @@ html.dark body,
   font-size: 1.05rem;
   font-weight: 700;
   margin: 0 0 0.3rem;
+}
+
+/* Pannello con solo il titolo: niente margine sotto, resta centrato */
+.panel h3:last-child {
+  margin-bottom: 0;
 }
 
 .panel p {

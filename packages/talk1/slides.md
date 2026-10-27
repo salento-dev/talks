@@ -1,6 +1,8 @@
 ---
 theme: default
 colorSchema: dark
+addons:
+  - salento-dev
 transition: console
 favicon: /favicon.svg
 title: Salento.dev - Talk \#1 · Un anno dopo
@@ -18,7 +20,7 @@ class: text-center
 
 <div class="eyebrow">root@salento.dev · talk #1</div>
 
-<img src="/logo/stacked-symbol-white-on-dark.svg" alt="Salento.dev" class="h-44 mx-auto my-8" />
+<Logo variant="stacked-symbol-white-on-dark" alt="Salento.dev" class="h-44 mx-auto my-8" />
 
 <h1 class="!text-4xl">Salento.dev, <span class="cyan">un anno dopo</span></h1>
 
@@ -390,18 +392,18 @@ Transizione: l'ultima novità è il nuovo design system, slide successiva.
   <div class="panel">
     <div class="eyebrow !mb-3">il logo · 4 famiglie</div>
     <div class="grid grid-cols-4 gap-3 items-end text-center">
-      <div><img src="/logo/stacked-symbol-white-on-dark.svg" class="h-16 mx-auto" /><p class="mono !text-[0.6rem] mt-2">stacked</p></div>
-      <div><img src="/logo/horizontal-white-on-dark.svg" class="h-7 mx-auto mb-4" /><p class="mono !text-[0.6rem] mt-2">orizzontale</p></div>
-      <div><img src="/logo/compact-stacked-white-on-dark.svg" class="h-12 mx-auto" /><p class="mono !text-[0.6rem] mt-2">compatto</p></div>
-      <div><img src="/logo/pictogram-white-on-dark.svg" class="h-10 mx-auto" /><p class="mono !text-[0.6rem] mt-2">pittogramma</p></div>
+      <div><Logo variant="stacked-symbol-white-on-dark" class="h-16 mx-auto" /><p class="mono !text-[0.6rem] mt-2">stacked</p></div>
+      <div><Logo variant="horizontal-white-on-dark" class="h-7 mx-auto mb-4" /><p class="mono !text-[0.6rem] mt-2">orizzontale</p></div>
+      <div><Logo variant="compact-stacked-white-on-dark" class="h-12 mx-auto" /><p class="mono !text-[0.6rem] mt-2">compatto</p></div>
+      <div><Logo variant="pictogram-white-on-dark" class="h-10 mx-auto" /><p class="mono !text-[0.6rem] mt-2">pittogramma</p></div>
     </div>
   </div>
   <div class="panel">
     <div class="eyebrow !mb-3">3 varianti di colore</div>
     <div class="grid grid-cols-3 gap-3">
-      <div class="h-14 rounded-sm bg-white flex items-center justify-center"><img src="/logo/horizontal-dark-on-light.svg" class="h-6" /></div>
-      <div class="h-14 rounded-sm bg-black border border-gray-700 flex items-center justify-center"><img src="/logo/horizontal-white-on-dark.svg" class="h-6" /></div>
-      <div class="h-14 rounded-sm bg-black border border-gray-700 flex items-center justify-center"><img src="/logo/horizontal-cyan-on-dark.svg" class="h-6" /></div>
+      <div class="h-14 rounded-sm bg-white flex items-center justify-center"><Logo variant="horizontal-dark-on-light" class="h-6" /></div>
+      <div class="h-14 rounded-sm bg-black border border-gray-700 flex items-center justify-center"><Logo variant="horizontal-white-on-dark" class="h-6" /></div>
+      <div class="h-14 rounded-sm bg-black border border-gray-700 flex items-center justify-center"><Logo variant="horizontal-cyan-on-dark" class="h-6" /></div>
     </div>
   </div>
 </div>
