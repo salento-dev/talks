@@ -9,8 +9,6 @@
     "export": "slidev export --with-clicks --per-slide --wait-until none"
   },
   "dependencies": {
-    "@fontsource-variable/albert-sans": "^5.2.0",
-    "@fontsource-variable/outfit": "^5.2.0",
-    "@fontsource-variable/roboto-mono": "^5.2.0"
+    "slidev-addon-salento-dev": "workspace:*"
   }
 }
