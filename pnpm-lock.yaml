@@ -44,7 +44,11 @@ importers:
 
   packages/index: {}
 
-  packages/talk0: {}
+  packages/talk0:
+    dependencies:
+      slidev-addon-salento-dev:
+        specifier: workspace:*
+        version: link:../addon-salento-dev
 
   packages/talk1:
     dependencies:
