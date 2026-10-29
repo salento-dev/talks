@@ -27,7 +27,11 @@ class: text-center
 <p class="muted mono text-sm">Lightning Night @ Taurisano · ottobre 2026</p>
 
 <!--
-Stasera niente talk tecnico: vi racconto cosa abbiamo combinato quest'anno.
+Buonasera ragazzi! [pausa]
+
+Stasera niente che riguarda il codice per me.
+
+Vi racconto una storia: quella di un gruppo WhatsApp che a un certo punto ha deciso di uscire dal telefono.
 -->
 
 ---
@@ -36,7 +40,7 @@ layout: center
 
 <div class="eyebrow">00 · da dove veniamo</div>
 
-# Tre anni di chat, <span class="cyan">un anno</span> di Salento.dev
+# Quattro anni di chat, <span class="cyan">un anno</span> di Salento.dev
 
 <div class="timeline mt-14 max-w-3xl">
   <div class="dot"></div>
@@ -53,8 +57,13 @@ layout: center
 <p class="mt-14 muted italic">Eventi dal vivo, persone vere, codice aperto.</p>
 
 <!--
-È l'unica slide su "chi siamo": chi è in sala lo sa già.
-Il gancio: un anno fa eravamo in questa stessa città.
+12 novembre 2022: nasce un gruppo WhatsApp con un nome che solo degli sviluppatori (frontend) potevano scegliere, "@include dev from salento".
+
+L'idea: in Salento gli sviluppatori non sono pochi, sono solo sparsi.
+
+Per tre anni è una chat: domande, link, polemiche, tanti meme.
+
+Poi, un anno dopo, diventiamo Salento.dev e facciamo il primo meetup dal vivo.
 -->
 
 ---
@@ -81,7 +90,9 @@ Il gancio: un anno fa eravamo in questa stessa città.
 </div>
 
 <!--
-Due format, sempre in un comune diverso: Taurisano, Ruffano, Galatina, Taviano, Torre Suda, Maglie.
+Da quella sera, proviamo a rispettare una regola: ogni volta in un posto diverso.
+
+Testiamo due format: talk brevi e poi tutti al bancone (come oggi). E l'AperiDev: niente slide, solo birre.
 -->
 
 ---
@@ -114,7 +125,7 @@ Due format, sempre in un comune diverso: Taurisano, Ruffano, Galatina, Taviano, 
 
 <div class="eyebrow mt-8">i nostri partner</div>
 <div class="grid grid-cols-7 gap-4 text-center">
-  <div><div class="partner-logo partner-text">GDG<br>Lecce</div><p class="partner-name">GDG Lecce</p></div>
+  <div><img src="/partners/gdg-lecce.jpg" class="partner-logo" alt="GDG Lecce" /><p class="partner-name">GDG Lecce</p></div>
   <div><img src="/partners/gdg-basilicata.png" class="partner-logo" alt="GDG Basilicata" /><p class="partner-name">GDG Basilicata</p></div>
   <div><img src="/partners/azure-meetup-puglia.png" class="partner-logo" alt="Azure Meetup Puglia" /><p class="partner-name">Azure Meetup Puglia</p></div>
   <div><img src="/partners/global-ai-lecce.png" class="partner-logo !bg-white" alt="Global AI Lecce" /><p class="partner-name">Global AI Lecce</p></div>
@@ -124,7 +135,9 @@ Due format, sempre in un comune diverso: Taurisano, Ruffano, Galatina, Taviano, 
 </div>
 
 <!--
-Organizziamo poco da soli e partecipiamo tanto: gli eventi dei partner sono anche nostri.
+Non siamo soli, organizziamo e partecipiamo tanto: gli eventi dei partner sono anche nostri. Abbiamo fatto persino bowling con Lecce Digital Community. [Per una volta, più strike che bug!]
+
+[indicando i partner] questa è gente che fa le nostre stesse cose per passione, di sera, dopo il lavoro. E ci terrei a ringraziarli tutti loro.
 -->
 
 ---
@@ -144,7 +157,11 @@ class: text-center
 </div>
 
 <!--
-Transizione: "tra un evento e l'altro, dove ci sentiamo?"
+In numeri: circa diciotto eventi in un anno, sei comuni, sette partner, una decina di trasferte.
+
+Senza sede, senza budget, senza nessuno pagato per farlo.
+
+[pausa] Ma un evento dura una sera. E tra un evento e l'altro, dove ci sentiamo?
 -->
 
 ---
@@ -156,6 +173,10 @@ class: text-center
 
 # Dove succede <span class="cyan">tutto il resto</span>
 
+<!--
+Su WhatsApp, ovviamente.
+-->
+
 ---
 
 <div class="eyebrow">02 · whatsapp community</div>
@@ -165,9 +186,9 @@ class: text-center
 <div class="grid grid-cols-6 gap-5 mt-12 text-center">
   <div><img src="/groups/include-dev-from-salento.png" class="w-24 mx-auto rounded-full" /><p class="mt-3 text-sm font-bold">@include</p><p class="text-xs muted">il gruppo tecnico</p></div>
   <div><img src="/groups/ai-corner.png" class="w-24 mx-auto rounded-full" /><p class="mt-3 text-sm font-bold">AI Corner</p><p class="text-xs muted">LLM, agenti, tool</p></div>
-  <div><img src="/groups/tavola-rotonda.png" class="w-24 mx-auto rounded-full" /><p class="mt-3 text-sm font-bold">Tavola Rotonda</p><p class="text-xs muted">carriera e mestiere</p></div>
   <div><img src="/groups/mercatino.png" class="w-24 mx-auto rounded-full" /><p class="mt-3 text-sm font-bold">Mercatino</p><p class="text-xs muted">hardware e libri</p></div>
   <div><img src="/groups/off-topic.png" class="w-24 mx-auto rounded-full" /><p class="mt-3 text-sm font-bold">Off topic</p><p class="text-xs muted">meme e pause caffè</p></div>
+  <div><img src="/groups/tavola-rotonda.png" class="w-24 mx-auto rounded-full" /><p class="mt-3 text-sm font-bold">Tavola Rotonda</p><p class="text-xs muted">proposte e decisioni</p></div>
   <div><img src="/groups/trasferta-codemotion-milano.png" class="w-24 mx-auto rounded-full" /><p class="mt-3 text-sm font-bold">Trasferte</p><p class="text-xs muted">temporanei</p></div>
 </div>
 
@@ -177,14 +198,24 @@ class: text-center
 </div>
 
 <!--
-Le icone non sono disegnate a mano: le genera il repo brand (lo vediamo più avanti).
+Oggi abbiamo un gruppo per argomento.
+
+- @include resta il gruppo tecnico. 
+- AI Corner per LLM e agenti. 
+- Il Mercatino per hardware e libri. 
+- Off topic per meme e pause caffè.
+
+E la Tavola Rotonda: lì si fanno proposte e si prendono decisioni sulla community. 
+Può entrare chi vuole essere più operativo: se volete metterci le mani, vi aspettiamo lì.
+
+Poi i gruppi temporanei, uno per trasferta o evento: nascono, servono, si archiviano.
 -->
 
 ---
 
 <div class="eyebrow">02 · whatsapp community</div>
 
-# 3 anni, <span class="cyan">25K+</span> messaggi
+# Quasi 4 anni, <span class="cyan">25K+</span> messaggi
 
 <p>Oltre 100 persone hanno scritto · la chat è viva quasi ogni giorno</p>
 
@@ -199,8 +230,13 @@ Le icone non sono disegnate a mano: le genera il repo brand (lo vediamo più ava
 <p class="mt-8 text-sm muted">Dopo il rebranding: <b class="cyan">60+ nuovi membri</b> in due mesi, più che nei tre anni prima messi insieme.</p>
 
 <!--
-Dati dagli export di @include, Off topic, AI Corner e Mercatino (Tavola Rotonda esclusa).
-Il 2026 ha già superato il 2025 di circa il 50%.
+Abbiamo contato i messaggi. Solo numeri aggregati [stasera nessuno finisce alla gogna.]
+
+Oltre 25k messaggi in quattro anni, più di cento persone. La chat non dorme quasi mai.
+
+Cresce ogni anno, e il 2026 ha già superato il 2025 di oltre il 50%.
+
+Ma il numero che mi emoziona è quello sotto: dopo il rebranding, più di sessanta persone in due mesi. Più che nei tre anni prima.
 -->
 
 ---
@@ -217,18 +253,23 @@ Il 2026 ha già superato il 2025 di circa il 50%.
 </div>
 
 <div class="flex flex-col gap-3 max-w-3xl">
-  <div class="hbar"><span>GPU</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:20.4%"></div><div class="bar on" style="width:100%"></div></div><span class="val">×5</span></div>
-  <div class="hbar"><span>Claude</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:0.6%"></div><div class="bar on" style="width:96.4%"></div></div><span class="val">da zero</span></div>
-  <div class="hbar"><span>Qwen</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:1.2%"></div><div class="bar on" style="width:95.8%"></div></div><span class="val">da zero</span></div>
-  <div class="hbar"><span>ChatGPT</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:34.7%"></div><div class="bar on" style="width:58.7%"></div></div><span class="val">quasi ×2</span></div>
-  <div class="hbar"><span>Llama</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:1.2%"></div><div class="bar on" style="width:41.3%"></div></div><span class="val">da zero</span></div>
+  <div class="hbar"><span>GPU</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:20.4%"></div><div class="bar on" style="width:100%"></div></div><span class="val">34 → 167</span></div>
+  <div class="hbar"><span>Claude</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:0.6%"></div><div class="bar on" style="width:96.4%"></div></div><span class="val">0 → 161</span></div>
+  <div class="hbar"><span>Qwen</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:1.2%"></div><div class="bar on" style="width:95.8%"></div></div><span class="val">2 → 160</span></div>
+  <div class="hbar"><span>ChatGPT</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:34.7%"></div><div class="bar on" style="width:58.7%"></div></div><span class="val">58 → 98</span></div>
+  <div class="hbar"><span>Llama</span><div class="flex flex-col gap-[2px]"><div class="bar" style="width:1.2%"></div><div class="bar on" style="width:41.3%"></div></div><span class="val">2 → 69</span></div>
 </div>
 
-<p class="mt-6 text-sm muted">Quanto spesso citiamo ciascun termine, 2025 contro 2026, tutti i gruppi.</p>
+<p class="mt-6 text-sm muted">Messaggi che citano ciascun termine, 2025 → 2026, tutti i gruppi.</p>
 
 <!--
-Da "ci ruberà il lavoro" a "quale modello mi gira sulla GPU di casa".
-Lo ritroveremo tra poco: è il motivo per cui è nato ai-lab.
+Ricordo nel 2022, il primo grande dibattito: "ChatGPT ci ruberà il lavoro?"
+
+[pausa] Siamo ancora tutti qui. E pure il lavoro (per ora...).
+
+Oggi la domanda è: "quale Qwen mi gira sulla GPU di casa?". GPU la scriviamo cinque volte più dell'anno scorso, Claude e Qwen partivano quasi da zero.
+
+Dalla paura alla curiosità, dalla curiosità allo smanettamento.
 -->
 
 ---
@@ -267,8 +308,8 @@ Lo ritroveremo tra poco: è il motivo per cui è nato ai-lab.
 </div>
 
 <!--
-Messaggi al mese, settembre 2025 - 25 ottobre 2026.
-Con i sotto-gruppi la conversazione non si è spostata e basta: è cresciuta.
+[Saltabile se siamo lunghi coi tempi.]
+Qui un pò di numeri sui nuovi gruppi
 -->
 
 ---
@@ -284,10 +325,18 @@ Con i sotto-gruppi la conversazione non si è spostata e basta: è cresciuta.
   <div class="panel on"><h3>272 messaggi in un giorno</h3><p>Il record: settembre 2024, Angular e Tailwind</p></div>
 </div>
 
-<p class="mt-8 text-sm muted">E una volta, a luglio 2024, una lezione collettiva su chiavi pubbliche e private con OpenSSL.</p>
+<p class="mt-8 text-sm muted">E una volta, a luglio 2024, una lezione collettiva su chiavi pubbliche e private con OpenSSL. <b class="cyan">Gratis.</b></p>
 
 <!--
-Slide leggera per far ridere. Saltabile se si è lunghi coi tempi.
+[Saltabile se siamo lunghi coi tempi.]
+
+Off topic, nato per staccare...
+
+La chat si accende in pausa pranzo e alle dieci di sera. Più di tremila faccine che ridono.
+
+Il record: 272 messaggi in un giorno su Angular e Tailwind. Nessun ferito, solo opinioni forti.
+
+E a luglio 2024 una lezione collettiva su chiavi pubbliche e private con OpenSSL. Gratis.
 -->
 
 ---
@@ -311,9 +360,15 @@ Slide leggera per far ridere. Saltabile se si è lunghi coi tempi.
 </div>
 
 <!--
-Si parte nel 2022 con la DevFest di Bari in macchina. Dal 2025 ogni trasferta ha il suo gruppo.
-2024: "siamo troppo poveri e troppo poco anglofoni per il Codemotion". Nel 2026 eravamo a Roma.
-Chiude la parte chat e apre quella sul codice.
+Le trasferte: per me la parte più bella.
+
+Dicembre 2022: "Qualcuno viene alla DevFest a Bari?". Si va in macchina.
+
+Poi Pignola, per il Come To Code: B&B condivisi, 150 euro a testa. Quattro anni di fila.
+
+A gennaio fino al CERN di Ginevra: partiti da una chat del Salento, arrivati dove è nato il web.
+
+Si parte insieme, si torna amici.
 -->
 
 ---
@@ -324,6 +379,10 @@ class: text-center
 <div class="eyebrow">03 · github.com/salento-dev</div>
 
 # Dietro le quinte: <span class="cyan">tutto open source</span>
+
+<!--
+Fin qui le persone. Ma siamo sviluppatori: tutto quello che facciamo è open source, su github.com/salento-dev.
+-->
 
 ---
 
@@ -343,8 +402,11 @@ class: text-center
 </div>
 
 <!--
-La landing era una pagina sola: chi siamo e il link per entrare.
+Ottobre 2025: la prima landing page. Una pagina sola, il logo in una pioggia di caratteri, molto Matrix. Bastava.
+
 Ad aprile la sostituisce il sito vero, che lo staff aggiorna senza toccare codice.
+
+Più di duecento commit, scritti la sera dopo il lavoro. Grazie a Federico e a Paolo.
 -->
 
 ---
@@ -377,8 +439,11 @@ layoutClass: gap-10
 </div>
 
 <!--
-Non come è fatto, ma cosa ci trovate e dove sta andando.
-Transizione: l'ultima novità è il nuovo design system, slide successiva.
+Sul sito trovate eventi, risorse con le slide dei talk, storie dei membri e partner.
+
+Ma soprattutto è la porta d'ingresso: se conoscete qualcuno che stasera dovrebbe essere qui, mandategli il link.
+
+E l'ultima novità la state già guardando.
 -->
 
 ---
@@ -431,9 +496,7 @@ Transizione: l'ultima novità è il nuovo design system, slide successiva.
 </div>
 
 <!--
-Prima avevamo un logo e poco altro. Ora c'è un'identità completa, presa dal media kit:
-4 famiglie di logo per ogni uso (copertine, header, badge, avatar), 3 varianti di colore,
-una palette, tre font e una regola sul nome. Logo e nome restano riservati.
+Prima avevamo un logo e poco altro. Ora un'identità vera: quattro famiglie di logo, tre varianti di colore, una palette, tre font.
 -->
 
 ---
@@ -481,8 +544,11 @@ layoutClass: gap-8
 </div>
 
 <!--
-Le regole vivono nel repo brand, che genera anche il brand book pubblico e il kit da scaricare.
-Sito, queste slide, le icone dei gruppi e le copertine degli eventi parlano la stessa lingua.
+Il design system si chiama Night Console: una console accesa di notte. Nero, grafite e una sola luce azzurra.
+
+Niente versione chiara, è una scelta. Chi usa il tema chiaro nell'IDE... ne parliamo al bancone.
+
+Tutto vive in un repo che genera brand book, kit per i partner, icone dei gruppi e anche queste slide.
 -->
 
 ---
@@ -514,7 +580,13 @@ profiles/
 </div>
 
 <!--
-Nato a settembre da Paolo, con contributi di Emanuele.
+Ricordate GPU e Qwen? Ecco dove sono finite quelle discussioni.
+
+ai-lab nasce a settembre da Paolo, con Emanuele: configurazioni per far girare modelli AI in locale, organizzate per scheda video.
+
+È la chat che diventa codice: invece di chiedere "sulla mia GPU cosa gira?", c'è una cartella con la risposta.
+
+Avete una GPU sotto la scrivania? Portate il vostro setup: bastano un compose e un README.
 -->
 
 ---
@@ -533,7 +605,11 @@ Nato a settembre da Paolo, con contributi di Emanuele.
 <p class="mt-10 text-sm muted">Si parte dalle issue <span class="pill">good first issue</span></p>
 
 <!--
-Opzionale: saltabile se si è lunghi coi tempi.
+[Saltabile se siamo lunghi coi tempi.]
+
+Una pull request vale quanto un talk. Il palco non è per tutti, e va bene così.
+
+Sito, brand, ai-lab, queste slide: è tutto aperto.
 -->
 
 ---
@@ -543,7 +619,7 @@ Opzionale: saltabile se si è lunghi coi tempi.
 # E adesso?
 
 <div class="grid grid-cols-3 gap-5 mt-10">
-  <div class="panel on"><div class="eyebrow !mb-2">13 novembre</div><h3>Salento.dev compie 1 anno</h3><p>E @include ne compie 3</p></div>
+  <div class="panel on"><div class="eyebrow !mb-2">13 novembre</div><h3>Salento.dev compie 1 anno</h3><p>E @include ne compie 4</p></div>
   <div class="panel"><div class="eyebrow !mb-2">la prossima trasferta</div><h3>Dove andiamo?</h3><p>Si propone e si organizza in chat</p></div>
   <div class="panel"><div class="eyebrow !mb-2">il prossimo evento</div><h3>Nel tuo comune?</h3><p>Proponi il posto o il tuo talk</p></div>
 </div>
@@ -551,7 +627,14 @@ Opzionale: saltabile se si è lunghi coi tempi.
 <p class="mt-10 italic muted text-sm">"Vi ho conosciuti grazie al vostro adesivo a una DevFest"</p>
 
 <!--
-Chiudere con l'invito: entrare dal sito, scrivere in chat, proporre un talk, aprire una PR.
+Il 12 novembre @include compie quattro anni, Salento.dev ne compie uno.
+
+La prossima trasferta la decidiamo in chat. Il prossimo evento, magari nel vostro comune: avete un posto o un talk nel cassetto? Ditecelo.
+
+[pausa] Ricordo che, in chat, qualcuno ha scritto: "Vi ho conosciuti grazie al vostro adesivo a una DevFest".
+
+[pausa] Un adesivo... 
+[pausa] È così che vogliamo far crescere questa community: una persona alla volta, un comune alla volta.
 -->
 
 ---
@@ -561,9 +644,13 @@ class: text-center
 
 <div class="eyebrow">root@salento.dev · eof</div>
 
-# Ci vediamo al <span class="cyan">prossimo comune</span>
+# Ci vediamo al <span class="cyan">prossimo ...</span>
 
 <img src="/qrcode.svg" alt="QR code verso salento.dev" class="w-[180px] mx-auto mt-8" />
 
 <p class="mt-5 text-xl mono cyan">salento.dev</p>
 <p class="muted text-sm">Instagram @salento.dev · LinkedIn company/salento-dev · github.com/salento-dev</p>
+
+<!--
+Grazie.
+-->
