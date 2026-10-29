@@ -14,12 +14,18 @@
     "packages:build-base": "pnpm cleanup:dist && pnpm -r --filter=./packages/* run build-base"
   },
   "devDependencies": {
-    "@slidev/cli": "^52.8.0",
+    "@slidev/cli": "^53.0.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "@types/seedrandom": "^3.0.8",
+    "markdown-it": "^14.3.3",
     "rimraf": "^6.0.1",
     "seedrandom": "^3.0.5",
     "vue": "^3.5.24"
+  },
+  "pnpm": {
+    "overrides": {
+      "dompurify": "^3.4.17"
+    }
   }
 }
